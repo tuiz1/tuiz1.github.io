@@ -19,7 +19,7 @@ title: 小推车的个人网站 # the main title
 tagline: 心沉于渊，志骋于天 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  小推车的个人博客，记录技术、生活与思考。
 
 # Fill in the protocol & hostname for your site.
 url: "https://tuiz1.github.io"
