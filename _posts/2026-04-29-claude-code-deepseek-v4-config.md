@@ -44,14 +44,14 @@ sudo dpkg -i cc-switch_*.deb
 
 去 [DeepSeek 开放平台](https://platform.deepseek.com/api_keys) 注册并创建一个 API Key，复制备用。
 
-> DeepSeek-V4-pro 目前需要在 API 请求中指定模型名 `deepseek-chat`。
+> 注意：模型名需直接填写 `DeepSeek-V4-pro`，与 DeepSeek 开放平台的实际模型标识一致。
 
 ## 第三步：在 CC Switch 中添加 DeepSeek 供应商
 
 1. 点击界面左下角的 **+** 按钮
 2. 在预设列表中搜索 **DeepSeek**，选中
 3. 填入你的 **API Key**
-4. 模型映射（Model Mapping）不用改，默认将三个模型槽位都映射到 `deepseek-chat`
+4. 模型映射（Model Mapping）：将三个模型槽位都设置为 `DeepSeek-V4-pro`
 5. 点击 **Add**，然后点击供应商卡片上的开关将其 **启用**
 
 此时 CC Switch 已经帮你在后台写好了 Claude Code 的 `settings.json` 配置。如果想手动确认，可以检查：
@@ -61,11 +61,10 @@ sudo dpkg -i cc-switch_*.deb
   "env": {
     "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
     "ANTHROPIC_AUTH_TOKEN": "sk-your-key",
-    "ANTHROPIC_MODEL": "deepseek-chat",
-    "ANTHROPIC_SMALL_FAST_MODEL": "deepseek-chat",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-chat",
-    "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-chat",
-    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-chat"
+    "ANTHROPIC_MODEL": "DeepSeek-V4-pro",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "DeepSeek-V4-pro",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "DeepSeek-V4-pro",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "DeepSeek-V4-pro"
   }
 }
 ```
