@@ -4,6 +4,7 @@ date: 2026-04-29 20:00:00 +0800
 categories: [教程]
 tags: [Claude Code, DeepSeek, AI, 开发工具]
 ---
+{% raw %}
 
 ## 为什么用 DeepSeek-V4-pro？
 
@@ -196,3 +197,4 @@ claude_code_disable_adaptive_thinking=1
 CC Switch + DeepSeek-V4-pro 的组合很适合日常开发场景。日常编码、搜索、文件操作交给 DeepSeek，省钱且速度不慢；遇到需要深度推理的任务时，一键切回 Claude Opus。两个模型互补，体验很顺畅。
 
 有问题欢迎评论区交流。
+{% endraw %}
