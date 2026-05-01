@@ -21,8 +21,7 @@ DeepSeek-V4-pro 是目前性价比最高的模型之一，推理能力对标 Cla
 - 用量统计 + 费用监控
 - 支持 MCP 配置管理、云同步等
 
-![CC Switch 主界面](/assets/img/ccswitch-main.png)
-*[需截图：CC Switch 主界面，显示已添加的供应商列表]*
+<!-- screenshot: /assets/img/ccswitch-main.png — CC Switch 主界面，显示已添加的供应商列表 -->
 
 ## 前置环境
 
@@ -72,8 +71,7 @@ npm install -g @anthropic-ai/claude-code
 
 去 [DeepSeek 开放平台](https://platform.deepseek.com/api_keys) 注册并创建一个 API Key，复制备用。
 
-![DeepSeek API Key 页面](/assets/img/deepseek-apikey.png)
-*[需截图：DeepSeek 开放平台的 API Key 创建/复制页面]*
+<!-- screenshot: /assets/img/deepseek-apikey.png — DeepSeek 开放平台的 API Key 创建/复制页面 -->
 
 > 注意：模型名需填写 `DeepSeek-V4-pro` 或 `deepseek-v4-flash`，与 DeepSeek 开放平台的实际模型标识一致。
 
@@ -85,8 +83,7 @@ npm install -g @anthropic-ai/claude-code
 4. 模型映射：日常任务选 `deepseek-v4-flash`，复杂任务选 `DeepSeek-V4-pro`（三个模型槽位可以分别设置）
 5. 点击 **Add**，然后点击供应商卡片上的开关将其 **启用**
 
-![CC Switch 添加供应商](/assets/img/ccswitch-add-provider.png)
-*[需截图：CC Switch 添加供应商的弹窗界面，填好 API Key 和模型映射]*
+<!-- screenshot: /assets/img/ccswitch-add-provider.png — CC Switch 添加供应商的弹窗界面，填好 API Key 和模型映射 -->
 
 此时 CC Switch 已经帮你在后台写好了 Claude Code 的 `settings.json` 配置。如果想手动确认，可以检查：
 
@@ -113,8 +110,7 @@ claude
 
 看到 `Powered by DeepSeek-V4-pro` 就说明配置成功了。
 
-![Claude Code 启动成功](/assets/img/claude-deepseek-success.png)
-*[需截图：终端中 Claude Code 启动，显示 Powered by DeepSeek-V4-pro]*
+<!-- screenshot: /assets/img/claude-deepseek-success.png — 终端中 Claude Code 启动，显示 Powered by DeepSeek-V4-pro -->
 
 试着问一句话，确认有正常回复即可。
 
@@ -179,8 +175,7 @@ claude_code_disable_adaptive_thinking=1
 
 > 这个值可以随便填，因为实际 API Key 已由 CC Switch 接管，VSCode 插件只需要读到一个非空值就不再弹登录提示。
 
-![VSCode 配置文件](/assets/img/vscode-config.png)
-*[需截图：VSCode 中打开 .claude/config.json，显示 primaryApiKey 配置]*
+<!-- screenshot: /assets/img/vscode-config.png — VSCode 中打开 .claude/config.json，显示 primaryApiKey 配置 -->
 
 ## 推荐使用策略
 
