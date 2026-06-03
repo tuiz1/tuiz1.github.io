@@ -60,7 +60,7 @@ description: 魔戒机场的安全性检测报告，附 FlClash 下载安装与�
 | Windows | [FlClash-0.8.92-windows-amd64-setup.exe](https://github.com/chen08209/FlClash/releases/download/v0.8.92/FlClash-0.8.92-windows-amd64-setup.exe) | [SHA256](https://github.com/chen08209/FlClash/releases/download/v0.8.92/FlClash-0.8.92-windows-amd64-setup.exe.sha256) |
 | Android | [FlClash-0.8.92-android-arm64-v8a.apk](https://github.com/chen08209/FlClash/releases/download/v0.8.92/FlClash-0.8.92-android-arm64-v8a.apk) | — |
 
-**获取订阅链接**：前往魔戒官网注册后即可获取。作者邀请链接：[注册入口](https://mojie.xn--yrs494l.com/register?aff=Y7OSEu7d)
+**获取订阅链接**：前往魔戒官网注册后即可获取。作者邀请链接：[注册入口](https://www.xfltd.org/#/register?code=3yJmKFGf)
 
 **导入步骤**：
 
